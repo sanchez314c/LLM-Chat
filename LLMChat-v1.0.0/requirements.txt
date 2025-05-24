@@ -1,0 +1,14 @@
+# Core dependencies
+numpy==1.26.4  # Compatible with PyTorch 2.4.1
+pygame==2.6.1  # For audio playback
+pyperclip==1.9.0  # For clipboard operations
+requests==2.32.3  # For API calls (e.g., ElevenLabs, OpenAI)
+
+# OpenAI and API-related
+openai==1.51.2  # For OpenAI, OpenRouter, XAI API interactions
+
+# Hugging Face for Sesame CSM
+huggingface_hub==0.26.1  # For downloading Sesame CSM model
+
+# macOS Native TTS
+pyobjc==10.3.1  # For NSSpeechSynthesizer on macOS

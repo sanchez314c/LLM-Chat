@@ -1,0 +1,8 @@
+# Core dependencies for r2
+requests==2.31.0
+numpy==1.26.4
+aiosqlite==0.19.0
+# Optional: Remove faiss and PyPDF2 for basic functionality
+# faiss-cpu==1.7.4
+# PyPDF2==3.0.1
+pyperclip==1.9.0
