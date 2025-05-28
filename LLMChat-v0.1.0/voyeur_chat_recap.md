@@ -31,7 +31,7 @@ AI AGENT 01
 ## Module 1.5: Google Search Integration
 - **Objective**: Enable AI agents to use Google Search for real-time data in conversations, enhancing discussion relevance.
 - **Changes Made**:
-  - **Google Search API Setup**: Integrated the Google Custom Search JSON API with the provided API key (`AIzaSyCS5RdtvLViGHHauK-QqlYQI6WnBMMWahE`) and Engine ID (`b662f783508054823`) to fetch top 3 search results.
+  - **Google Search API Setup**: Integrated the Google Custom Search JSON API with a securely stored API key and Engine ID (stored as environment variables) to fetch top 3 search results.
   - **Search Trigger Logic**: Added a heuristic in `extract_search_query` to detect search relevance based on keywords (e.g., "current", "recent", "search for") in input or responses, triggering searches during conversation flow.
   - **Parse and Use Results**: Enabled agents to include formatted search summaries (title, snippet, link) in their dialogue, with a GUI note like "(Search performed: 'query')" for transparency.
   - **User Control in GUI**: Added a `Checkbutton` labeled "Enable Google Search for Agents", defaulting to enabled, allowing users to disable search functionality if desired.
